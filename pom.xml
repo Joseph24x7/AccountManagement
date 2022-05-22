@@ -39,8 +39,4 @@
 
 	</dependencies>
 
-	<build>
-		<finalName>account-management-docker</finalName>
-	</build>
-
 </project>

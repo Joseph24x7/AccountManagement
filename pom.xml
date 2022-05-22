@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.account</groupId>
 	<artifactId>account-management</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>Account-Management</name>
 	<description>Account Management using Microservices</description>

@@ -1,6 +1,6 @@
 package com.account.management.models;
 
-public class Account {
+public class Account{
 	
 	private String accountNumber;
 	private String category;
@@ -23,6 +23,11 @@ public class Account {
 	}
 	public void setBalanceAmount(Long balanceAmount) {
 		this.balanceAmount = balanceAmount;
+	}
+	@Override
+	public String toString() {
+		return "Account [accountNumber=" + accountNumber + ", category=" + category + ", balanceAmount=" + balanceAmount
+				+ "]";
 	}
 	
 }
